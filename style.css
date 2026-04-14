@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: pokemon;
+    src: url(fontes/Pokemon\ Solid.ttf);
+}
+@font-face {
+    font-family:textos ;
+    src: url(fontes/GROBOLD.ttf);
+}
+
+body{
+    background-color: rgb(33, 33, 33);
+    font-family: textos;
+    font-weight: normal;
+}
+img#cha{
+    border: 3px solid black;
+    width: 450px;
+    box-shadow: 5px 5px 15px rgba(87, 45, 45, 0.779);
+    background-color: rgba(255, 145, 145, 0.844);
+    border-radius: 10px;
+}
+img#buba{
+    border: 3px solid black;
+    width: 450px;
+    box-shadow: 5px 5px 15px rgba(73, 99, 80, 0.779);
+    background-color: rgba(139, 231, 131, 0.844);
+    border-radius: 10px;
+}
+img#squirtle{
+    border: 3px solid black;
+    width: 450px;
+    box-shadow: 5px 5px 15px rgba(93, 106, 143, 0.779);
+    background-color: rgba(76, 181, 237, 0.844);
+    border-radius: 10px;
+}
+h1{
+    color: rgb(212, 55, 55);
+    font-family: pokemon;
+    font-weight: normal;
+    text-align: center;
+    font-size: 80px;
+    letter-spacing: 5px; 
+}
+h2{
+    color: rgb(201, 201, 201);
+    font-weight: normal;
+}
+div{
+    display: inline-block;
+    border-radius: 10px;
+}
+div:hover{
+    background-color: grey;
+    height: 460px; ;
+    width:460px ;
+    text-align: center;
+   
+
+}
