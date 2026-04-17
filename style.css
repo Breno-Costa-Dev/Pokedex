@@ -46,16 +46,15 @@ h1{
 h2{
     color: rgb(201, 201, 201);
     font-weight: normal;
+    text-align: center;
 }
 div{
     display: inline-block;
     border-radius: 10px;
+    margin: 10px;
 }
 div:hover{
-    background-color: grey;
-    height: 460px; ;
-    width:460px ;
-    text-align: center;
-   
-
+    transition-duration: 1s;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 5px white;
 }
